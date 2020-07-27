@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    max-width: 1920px;
+    width: 100vw;
+    height: 100%;
+    border-style: none;
+}
+
+footer {
+    background: #505A5A;
+    max-width: 1920px;
+    width: 100vw;
+    height: 100%;
+    border-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.contenedor-footer {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*section*/
+
+.contenedor-footer-section {
+    width: 100%;
+}
+
+.contenedor-footer-section-elements {
+    width: 100%;
+    height: 90%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0vh 5vw;
+}
+.contenedor-footer-section-element{
+    height: 100%;
+    width: 50%;
+    margin: 10px;
+}
+
+.primer-elemento{
+    width: 20%;
+}
+
+.tercer-elemento {
+    max-width: 20%;
+    padding-left: 15px;
+}
+.logo {
+    margin: 30px 0px 50px 30px;
+}
+
+#footer-parrafo {
+    margin-left: 30px;
+    max-width: 80%;
+    font-size: 14px;
+
+}
+
+.footer-titulos {
+    margin-top: 100px;
+    font-size: 14px;
+
+}
+.contenedor-listas {
+    height: 40vh;
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 60vh;
+    font-size: 12px;
+}
+
+.contenedor-listas li {
+    width: 15vw;
+}
+.contenedor-lista-productos{
+    height: 40vh;
+    max-height: 60vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+
+}
+
+li::before {
+    content: "• ";
+    color: #FFE900; /* or whatever color you prefer */
+}
+
+.contenedor-lista-productos li::before {
+    content: "- ";
+    color: #FFE900; /* or whatever color you prefer */
+}
+.contenedor-contactenos{
+    justify-content:center;
+}
+
+.contacto {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.contacto p {
+    margin: 0;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+.logo-contacto{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.agencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+
+.agencia img{
+    width: 130px;
+    height: 18px;
+}
+
+.agencia p {
+    margin: 0;
+    font-size: 12px;
+}
