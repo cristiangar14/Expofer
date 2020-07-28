@@ -19,6 +19,7 @@ a {
 .header{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .header-barraSuperio{
     display: flex;
@@ -66,16 +67,15 @@ a {
 
 .login-cerrado {
     display: none;
+    
 }
 
 .login-abierto {
     display: block;
-    transition: all 1seg ease;
     position: absolute;
     top: 50px;
     padding: 40px 20px 20px 20px;
     background: #fff;
-    
 }
 
 .contendor-form-login{
@@ -159,8 +159,6 @@ a {
 .nav a {
     color: #505A5A;
 }
-
-
 
 .link-nav-activo {
     color: #505A5A;
@@ -328,117 +326,173 @@ a {
     text-decoration: none;
     
 }
-/*primera seccion*/
+/*seccion 1*/
 
 .fondo{
     margin: 0;
     padding: 0;
+    max-width: 1920px;
     background: transparent url("../img/tractor-fondo.jpg") 0% 0% ;
-    opacity: 1;
     width: 100vw;
     height: 100vh;
     background-size:cover;
     background-position: center;
+    display: flex;
 
 }
 
 .container-texto1{
-    width: 75vw;
-    height: 100vh;
-    margin: 0px;
-    top: 300px;
-
-}
-
-.container-texto{
-    font-size: 80px;
-    color: white;
-    margin: 0px;
-    top: 300px;
-    padding-top: 200px;
-    padding-left: 200px;
-    font-family: 'Montserrat', sans-serif;
-
-
-}
-.btn-secondary{
-    font-size: 20px;
-    height: 60px;
-    margin-left: 200px;
-    font-family: 'Montserrat', sans-serif;
-}
-.container-texto2{
-    background: #D9000D;
-    color: white;
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 218px;
-    display: grid;
-    align-content: center;
-    justify-content: center;   
-}
-.container-texto2 h3{
-    margin: 30px 0px;
-    letter-spacing: 0.3em;
-}
-.container-parrafo2{
-    font-size: 15px;
-    width: 610px;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1
-}
-
-.container-parrafo2 p {
-    padding: 0;
-    margin-bottom: 30px;
-}
-
-/*categorias*/
-.container-categorias{
-    width: 100vw;
-    height: 100vh;
-    padding: 0px;
     margin: 0;
     display: flex;
-    
-}
-
-.categoria {
-    width: 25%;
-}
-
-.texto-cards{
-    display: grid;
-    align-content: center;
-    top: 200px;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
     font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 0px 150px;
+
 }
-.card-categoria{
-    padding: 0;
-    border: none;
+
+.container-texto1 h1 {
+    font-size: 80px;
+    color: white;
+    margin: 0px ;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-weight: 600;
 }
-.card img{
-    height: 50vh;
+
+.container-texto1 button {
+    background: #505A5A;
+    border:none;
+    color: #fff;
+    max-width: 30%;
+    margin: 30px;
+    padding: 20px;
+    font-weight: 600;
 }
-.card-title{
-    letter-spacing: 4.2px;
+/* seccion categorias*/
+
+.seccion-categorias{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-texto-categorias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #D9000D;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+.container-texto-categorias h3 {
+    width: 45%;
     font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 0;
 }
-.texto-cards-todas{
-    display: grid;
-    align-content: center;
+
+.container-texto-categorias p {
+    font-size: 13px;
+    width: 40%;
+    text-align: center;
+    justify-self: center;
+    margin-top: 10px;
+
+}
+
+.categorias-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-general{
+    width: 25%;
+    height: 50vh;
+    margin: 0;
     
-    font-family: 'Montserrat', sans-serif;
 }
-#img-todasLasCAtegorias{
+
+.card-indexposicion{
+    position: relative;
+}
+
+.card-fondo{
+    width: 100%;
+    height: 100%; 
+}
+
+#fondoVerTodos{
     opacity: 0.7;
 }
-.card:hover{
-    opacity: 0.5;
+
+.card-contenido{
+
+    top:-47vh;
+    width: 90%;
+    height: 87%;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    color: #fff;
+    
 }
 
+.card-contenido img {
+    width: 70px;
+    height: 90px;
+    padding: 10px;
+    margin: 85px;
+    background: #2D3A4B;
+    background-size: auto;
+    color: #fff;
+    border-radius: 30px;
+    display: none;
+
+}
+
+
+.card-contenido-index {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-contenido-index h5 {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-contenido-index a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.card-contenido:hover {
+    background:rgba(252,235,121,.5);
+    color: #2D3A4B ;
+}
+
+.card-contenido:hover a {
+    color: #2D3A4B ;
+}
+.card-contenido:hover img {
+    display: block;
+}
 
 /*seccion accesorios*/
 
@@ -479,18 +533,152 @@ a {
     text-align: center;
 }
 
-footer {
-    max-width: 1920px;
-    width: 100vw;
-    max-height: 1000px;
-    height: 380px;
-}
 
-.iframe-footer{
+/* Footer */
+footer {
+    background: #505A5A;
     max-width: 1920px;
     width: 100vw;
     height: 100%;
+    border-style: none;
+    display: block;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.contenedor-footer {
+    height: 100%;
+    width: 100%;
 }
 
 
+/*section*/
 
+.contenedor-footer-section {
+    width: 100%;
+}
+
+.contenedor-footer-section-elements {
+    width: 100%;
+    height: 90%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0vh 5vw;
+}
+.contenedor-footer-section-element{
+    height: 100%;
+    width: 50%;
+    margin: 10px;
+}
+
+.primer-elemento{
+    width: 20%;
+}
+
+.tercer-elemento {
+    max-width: 20%;
+    padding-left: 15px;
+}
+.logo {
+    margin: 30px 0px 50px 30px;
+}
+
+#footer-parrafo {
+    margin-left: 30px;
+    max-width: 80%;
+    font-size: 14px;
+
+}
+
+.footer-titulos {
+    margin-top: 100px;
+    font-size: 14px;
+
+}
+.contenedor-listas {
+    height: 40vh;
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 60vh;
+    font-size: 12px;
+}
+
+.contenedor-listas li {
+    width: 15vw;
+}
+.contenedor-lista-productos{
+    height: 40vh;
+    max-height: 60vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+
+}
+
+li::before {
+    content: "• ";
+    color: #FFE900; /* or whatever color you prefer */
+}
+
+.contenedor-lista-productos li::before {
+    content: "- ";
+    color: #FFE900; /* or whatever color you prefer */
+}
+.contenedor-contactenos{
+    justify-content:center;
+}
+
+.contacto {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.contacto p {
+    margin: 0;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+.logo-contacto{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.agencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+
+.agencia img{
+    width: 130px;
+    height: 18px;
+}
+
+.agencia p {
+    margin: 0;
+    font-size: 12px;
+}
