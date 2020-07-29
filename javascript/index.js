@@ -1,3 +1,7 @@
+window.addEventListener('onload', ()=>{
+    console.log('cargada')
+})
+
 
 //login
 let btnlogin = document.getElementById('btnLogin');

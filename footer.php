@@ -1,4 +1,4 @@
-    <footer>
+    <footer class="footer">
         <section class="contenedor-footer-section">
             <div class="contenedor-footer-section-elements">
                 <div class="contenedor-footer-section-element primer-elemento ">

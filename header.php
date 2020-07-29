@@ -17,8 +17,6 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" type="text/css" href="./style/style.css">
-    <!-- <link rel="stylesheet" href="./style/footer.css"> -->
-    
     
     <title>Expofer</title>
 </head>
@@ -35,7 +33,7 @@
                 <div class="">
                     <div class="header-barraSuperio-log-elemento"> 
                         <div class="header-barraSuperio-log-btn"><button id="btnLogin"><img class="iconHeader" src="img/usuario.png" alt="icono-persona">INGRESAR</button>
-                            <div id="login" class="login-abierto">
+                            <div id="login" class="login-cerrado">
                                 <form class="contendor-form-login" action="">
                                     <h5>MI CUENTA</h5>
                                     <div class="form-login-inputs">
@@ -64,7 +62,9 @@
             </div>
         </div>
         <div class="header-barraInferio">
-            <img src="img/logo.png" alt="logo Expofer">
+            <div>
+                <img src="img/logo.png" alt="logo Expofer">
+            </div>
             <ul class="nav">
                 <li id="btnInicio" class="link-nav">
                     <a class="" href="#"><strong>INICIO</strong></a>
@@ -107,7 +107,7 @@
                             <h6>PRODUCTOS DESTACADOS</h6>
                             <div class="menu-cards">
                                 <div class="menu-card">
-                                    <img class="imagen-menu-abierto" src="./img/bg-1.png" alt="Prducto Bidon">
+                                    <img class="imagen-menu-abierto" src="./img/bidon.png" alt="Prducto Bidon">
                                     <h6>BIDON</h6>
                                     <p>Accesorios para Motosierras </p>
                                     <div class="card-precio">
@@ -116,7 +116,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-card">
-                                    <img class="imagen-menu-abierto" src="./img/bg-1.png" alt="bidon">
+                                    <img class="imagen-menu-abierto" src="./img/bidon.png" alt="bidon">
                                     <h6>BIDON</h6>
                                     <p>Accesorios para Motosierras </p>
                                     <div class="card-precio">
@@ -125,7 +125,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-card">
-                                    <img class="imagen-menu-abierto" src="./img/bg-1.png" alt="bidon">
+                                    <img class="imagen-menu-abierto" src="./img/bidon.png" alt="bidon">
                                     <h6>BIDON</h6>
                                     <p>Accesorios para Motosierras </p>
                                     <div class="card-precio">

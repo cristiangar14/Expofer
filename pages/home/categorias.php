@@ -1,5 +1,5 @@
 <section class="seccion-categorias">
-    <div class="container-texto-categorias">
+    <div class="container-texto-categorias container-texto-home">
         <h3 class="">CATEGORÍAS</h3>
         <P class="">Productos de las mejores marcas para el agro, la industria y el cuidado del hogar. Encuentra aquí el equipo ideal, los accesorios, repuestos y el soporte técnico profesional que necesitas.</P>
     </div>
