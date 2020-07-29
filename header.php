@@ -29,6 +29,7 @@
                 <img class="iconHeader" src="img/instagram.png" alt="instagram">
                 <img class="iconHeader" src="img/whatsapp.png" alt="whatsapp">
             </div>
+            
             <div class="header-barraSuperio-log">
                 <div class="">
                     <div class="header-barraSuperio-log-elemento"> 
@@ -65,7 +66,8 @@
             <div>
                 <img src="img/logo.png" alt="logo Expofer">
             </div>
-            <ul class="nav">
+            <img class="menu-icon" src="./img/menu.png" alt="menu">
+            <ul id="contenedorNav" class="nav">
                 <li id="btnInicio" class="link-nav">
                     <a class="" href="#"><strong>INICIO</strong></a>
                 </li>

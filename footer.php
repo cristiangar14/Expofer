@@ -98,7 +98,7 @@
                 }       
             })
             $('.menu-icon').click(function(){
-                $('header nav ').slideToggle();
+                $('.header-barraInferio .nav').slideToggle();
             })
     </script>
     
