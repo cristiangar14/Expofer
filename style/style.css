@@ -1287,18 +1287,14 @@ ul {
     padding: 50px 0px;
 }
 
-.container-slider-fotos{
-    margin: 0;
-    background-color: white;
-    width: 60%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.presentacionProducto-agregar-carrito{
-    width: 15%;
+
+.container-slider-fotos {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
 }
 
 .container-slider-fotos ul, li {
@@ -1307,14 +1303,16 @@ ul {
     list-style: none;
 }
 
+
 ul.slider{
     position: relative;
     width: 60%;
-    height: 85%;
-    border: #505A5A solid 1px; 
+    max-width: 570px;
+    height: 100%;
+    
 }
 
-ul.slider li {
+ul.slider li {  
     position: absolute;
     left: 0px;
     top: 0px;
@@ -1349,7 +1347,6 @@ ul.slider li:target {
 }
 
 .menu-slider li{
-    display: inline-block;
     text-align: center;
 }
 
@@ -1357,7 +1354,6 @@ ul.slider li:target {
     display: inline-block;
     color: white;
     text-decoration: none;
-    background-color: grey;
     padding: 10px;
     font-size: 20px;
 }
@@ -1368,6 +1364,64 @@ ul.slider li:target {
 }
 
 .imagenes-producto-lateral{
-    width: 80px;
+    width: 140px;
+    height: 25%;
+}
+.descuento-slider{
+    left: 15px;
+    top: 15px;
+}
+
+.presentacionProducto-agregar-carrito{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.presentacionProducto-agregar-carrito-cajaSuperio{
+    align-items: center;
+    color: #2D3A4B;
+    border-bottom: gray solid 0.5px;
+}
+
+.presentacionProducto-agregar-carrito-cajaSuperio h6{
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.presentacionProducto-agregar-carrito-precio{
+    display: flex;
     height: 80px;
+    align-items: center;
+}
+
+.precio-signo{
+    font-size: 10px;
+    margin: 5px 0px;
+    padding-top: 5px;
+}
+
+.precio-valor{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.presentacionProducto-agregar-carrito-referencia{
+    display: flex;
+}
+
+.contenedor-referencia{
+    display: flex;
+}
+
+.referencia-titulo{
+    color: #2D3A4B;
+    font-size: 12px;
+}
+
+.referencia-valor{
+    color: #FFE115;
+    font-size: 12px;
 }

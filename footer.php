@@ -77,7 +77,7 @@
             <p>Agencia Digital</p>
         </div>
     </footer>
-    
+
     <script src="./owlcarousel/jquery.min.js"></script>
     <script src="./owlcarousel/owl.carousel.min.js"></script>
     <script>
@@ -99,7 +99,6 @@
             })
             
     </script>
-    
     <script src="./javascript/index.js"></script>
 
     <!-- bootstrap -->

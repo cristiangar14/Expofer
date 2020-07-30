@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
 
+    <!--flexslider-->
+    <link rel = "stylesheet" href = "./style/flexslider.css" type = "text / css">
+
+
     <!-- Custom Style -->
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" type="text/css" href="./style/style.css">
