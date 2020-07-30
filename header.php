@@ -69,10 +69,10 @@
             <img class="menu-icon" src="./img/menu.png" alt="menu">
             <ul id="contenedorNav" class="nav">
                 <li id="btnInicio" class="link-nav">
-                    <a class="" href="#"><strong>INICIO</strong></a>
+                    <a class="" href="index.php"><strong>INICIO</strong></a>
                 </li>
                 <li id="btnProductos" class="link-nav">
-                    <a class="" href="#"><strong>PRODUCTOS</strong></a>
+                    <a class="" href="productos.php"><strong>PRODUCTOS</strong></a>
                 </li>
                 <li id="btnServicioTecnico" class="link-nav">
                     <a class="" href="#"><strong>SERVICIO TÉCNICO</strong></a>

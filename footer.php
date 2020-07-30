@@ -97,9 +97,7 @@
                     }
                 }       
             })
-            $('.menu-icon').click(function(){
-                $('.header-barraInferio .nav').slideToggle();
-            })
+            
     </script>
     
     <script src="./javascript/index.js"></script>
