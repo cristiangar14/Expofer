@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <?php include('./pages/producto/seccion1.php'); ?>
-
+<?php include('./pages/producto/presentacionProducto.php'); ?>
 
 
 
